@@ -149,7 +149,7 @@ src/
 npm install
 ```
 
-### Execução
+### Execução Local
 
 ```bash
 npm run dev
@@ -163,6 +163,32 @@ O jogo estará disponível em `http://localhost:3000`
 npm run build
 npm start
 ```
+
+## 🚀 Deploy
+
+### Netlify (Versão Demo)
+
+O projeto está pronto para deploy no Netlify:
+
+1. **Build funciona**: ✅ O erro do `useSearchParams()` foi corrigido
+2. **Versão demo**: ✅ Funciona perfeitamente offline
+3. **Limitações**: ❌ WebSocket não funciona no Netlify
+
+Para instruções detalhadas, veja `NETLIFY-DEPLOY.md`
+
+### Vercel (Versão Completa)
+
+Para funcionalidade completa com WebSocket:
+
+1. Conecte o repositório ao Vercel
+2. Use as mesmas configurações de build
+3. O WebSocket funcionará automaticamente
+
+### Outras Plataformas
+
+- **Railway**: Funciona com WebSocket
+- **Render**: Funciona com WebSocket
+- **Digital Ocean**: Funciona com WebSocket
 
 ## 🎨 Personalização
 
